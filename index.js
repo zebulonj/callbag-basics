@@ -1,20 +1,37 @@
-module.exports = {
-  forEach: require('callbag-for-each'),
-  fromObs: require('callbag-from-obs'),
-  fromIter: require('callbag-from-iter'),
-  fromEvent: require('callbag-from-event'),
-  fromPromise: require('callbag-from-promise'),
-  interval: require('callbag-interval'),
-  map: require('callbag-map'),
-  scan: require('callbag-scan'),
-  flatten: require('callbag-flatten'),
-  take: require('callbag-take'),
-  skip: require('callbag-skip'),
-  filter: require('callbag-filter'),
-  merge: require('callbag-merge'),
-  concat: require('callbag-concat'),
-  combine: require('callbag-combine'),
-  share: require('callbag-share'),
-  pipe: require('callbag-pipe')
-};
+import forEach from 'callbag-for-each';
+import fromObs from 'callbag-from-obs';
+import fromIter from 'callbag-from-iter';
+import fromEvent from 'callbag-from-event';
+import fromPromise from 'callbag-from-promise';
+import interval from 'callbag-interval';
+import map from 'callbag-map';
+import scan from 'callbag-scan';
+import flatten from 'callbag-flatten';
+import take from 'callbag-take';
+import skip from 'callbag-skip';
+import filter from 'callbag-filter';
+import merge from 'callbag-merge';
+import concat from 'callbag-concat';
+import combine from 'callbag-combine';
+import share from 'callbag-share';
+import pipe from 'callbag-pipe';
 
+export {
+  forEach,
+  fromObs,
+  fromIter,
+  fromEvent,
+  fromPromise,
+  interval,
+  map,
+  scan,
+  flatten,
+  take,
+  skip,
+  filter,
+  merge,
+  concat,
+  combine,
+  share,
+  pipe
+};
